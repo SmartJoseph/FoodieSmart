@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
-                android:hint="Username"
+                android:hint="@string/username"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/colorWhite" />
 
@@ -48,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:inputType="textPassword"
                 android:textColor="@color/colorWhite" />
 
@@ -58,7 +58,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorOrange"
-                android:text="SIGNIN"
+                android:text="@string/signin"
                 android:textColor="@color/colorWhite" />
 
             <LinearLayout
@@ -70,7 +70,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="Forgot password?"
+                    android:text="@string/forgot_password"
                     android:textSize="12sp"
                     android:layout_weight="1"
                     android:textColor="@color/colorWhite" />
@@ -84,7 +84,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Not registered?"
+                        android:text="@string/not_registered"
                         android:textSize="12sp"
                         android:layout_weight="1"
                         android:textColor="@color/colorWhite" />
@@ -92,7 +92,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Sign up"
+                        android:text="@string/sign_up"
                         android:textSize="12sp"
                         android:textColor="@color/colorOrange" />
                 </LinearLayout>
